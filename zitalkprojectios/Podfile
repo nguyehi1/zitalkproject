@@ -17,4 +17,9 @@ target 'zitalkprojectios' do
     # Pods for testing
   end
 
+  # Pods for zitalkprojectios
+  pod 'Starscream','~> 3.0.4'
+  pod 'MessageKit','~> 0.13.1'
+  pod 'Alamofire','~> 4.7.0'
+
 end
