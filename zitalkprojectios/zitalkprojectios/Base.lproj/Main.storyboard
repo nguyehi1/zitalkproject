@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,45 +19,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="ZiTalk" textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="yvI-es-I0D">
-                                <rect key="frame" x="159" y="167" width="97" height="36"/>
+                                <rect key="frame" x="162" y="167" width="90" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.57497095710000001" green="0.73146724870000002" blue="0.5050519524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="1Oy-9v-BIp">
-                                <rect key="frame" x="77" y="245" width="261" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="23" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ELL-CC-1g2">
+                                <rect key="frame" x="77" y="282" width="260" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="23" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ELL-CC-1g2">
-                                <rect key="frame" x="77" y="282" width="261" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account? Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-KJ-20a">
+                                <rect key="frame" x="89" y="377" width="236" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="23" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1Oy-9v-BIp">
+                                <rect key="frame" x="77" y="244" width="260" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whz-No-KHv">
-                                <rect key="frame" x="77" y="330" width="261" height="37"/>
+                                <rect key="frame" x="77" y="330" width="260" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25471518128028231" green="0.69280713804511973" blue="0.73146724870785529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="Log In"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="BYZ-38-t0r" id="FDc-nX-2yC"/>
-                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account? Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-KJ-20a">
-                                <rect key="frame" x="89" y="375" width="237" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
